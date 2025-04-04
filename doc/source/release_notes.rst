@@ -1,6 +1,10 @@
 Release Notes
 =============
 
+Version 0.21.?
+---------------------------
+Fix depreciation was for `force_all_all_finite` by renaming it to `ensure_all_finite` as it will break code from (`sklearn 1.6. <https://scikit-learn.org/stable/modules/generated/sklearn.utils.check_array.html>`_).
+
 Version 0.20.1 (2025-02-23)
 ---------------------------
 
